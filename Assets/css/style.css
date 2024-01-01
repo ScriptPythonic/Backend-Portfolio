@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.main {
+    width: 100%; /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    cursor: none; /* Hide the default cursor */
+}
+
+.box-container {
+    display: flex;
+    width: 100%; /* Full width */
+}
+
+.box {
+    flex: 1; /* Take 50% of the width each */
+    height: 100vh; /* Same height as the body */
+    background-color: black; /* Same color as the body */
+    color: white;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.boxHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.heading h2, .about h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+.heading{
+    width: 80%;
+    height: 80%;
+    text-align: start;
+}
+
+.heading p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center; /* Center vertically within the flex container */
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.heading a::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: #333; 
+    left: -10px; 
+}
+
+.about,.skill{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+   
+}
+
+.about{
+    display: ;
+}
+
+
+.shape-container {
+    display: flex;
+    align-items: ;
+}
+
+.number {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+
+.content {
+    width: 100%;
+}
+
+.content p{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill h3{
+    margin-top: 40px;
+}
+
+.skill{
+    gap: 0;
+    display: none;
+}
+
+.custom-cursor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    opacity: 0.1;
+}
+
+.nameChangedColor{
+    color: green;
+}
+
+.programming{
+    width: 200px;
+   color: white;
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 0;
+
+}
+
+.programming img{
+   margin-top: 10px;
+}
+
+.contactLink{
+    margin-top: 70px;
+    
+}
+
+.contactLink a{
+    margin: 5px;
+}
