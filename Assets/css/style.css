@@ -99,7 +99,7 @@ li a {
 }
 
 .about{
-    display: ;
+    display: none;
 }
 
 
@@ -132,13 +132,13 @@ li a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.skill h3{
-    margin-top: 40px;
-}
+
 
 .skill{
     gap: 0;
-    display: none;
+    display: ;
+    justify-content: center;
+    align-items: center;
 }
 
 .custom-cursor {
@@ -157,19 +157,6 @@ li a {
     color: green;
 }
 
-.programming{
-    width: 200px;
-   color: white;
-    display: flex;
-    justify-content: space-between;
-   margin-bottom: 0;
-
-}
-
-.programming img{
-   margin-top: 10px;
-}
-
 .contactLink{
     margin-top: 70px;
     
@@ -177,4 +164,22 @@ li a {
 
 .contactLink a{
     margin: 5px;
+}
+
+.mySkill{
+    width: 70%;
+    height: calc(90%/3);
+    background-color: #333;
+    margin-top: 20px;
+  
+}
+
+.mySkill img{
+    margin-top: 20px;
+}
+
+.mySkill h2{
+    font-size: 20px;
+    color: #A79C9C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
