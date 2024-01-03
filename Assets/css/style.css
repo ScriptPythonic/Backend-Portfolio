@@ -80,6 +80,8 @@ li a {
     font-size: 16px;
 }
 
+
+
 .heading a::before {
     content: "";
     position: absolute;
@@ -183,3 +185,30 @@ li a {
     color: #A79C9C;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media (max-width: 820px) {
+    .box-container {
+      display: block;
+    }
+    body{
+        overflow: none;
+        display: block;
+        height: 100vh;
+    }
+    .custom-cursor{
+        display: none;
+    }
+    .main{
+        display: block;
+    }
+
+    .boxHeading{
+        flex: none;
+        height: ;
+        box-sizing: ;
+    }
+    .mySkill{
+        display: none;
+    }
+  }
+
