@@ -173,6 +173,7 @@ li a {
     height: calc(90%/3);
     background-color: #333;
     margin-top: 20px;
+    display: none;
   
 }
 
@@ -210,5 +211,6 @@ li a {
     .mySkill{
         display: none;
     }
+
   }
 
