@@ -1,3 +1,16 @@
+let about = document.getElementById("about");
+let skill = document.getElementById("skill");
+let project = document.getElementById("project");
+
+let aboutContainer = document.getElementById("aboutContainer");
+let skillContainer = document.getElementById("skillContainer")
+let projectContainer = document.getElementById("projectContainer")
+
+
+about.addEventListener('click', aboutClick)
+function aboutClick(){
+    aboutContainer.style.display == "flex";
+}
 document.addEventListener("DOMContentLoaded", function() {
     const main = document.querySelector('.main');
     const customCursor = document.querySelector('.custom-cursor');
