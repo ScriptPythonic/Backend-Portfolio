@@ -138,7 +138,7 @@ li a {
 
 .skill{
     gap: 0;
-    display: ;
+    display:blo ;
     justify-content: center;
     align-items: center;
 }
@@ -167,13 +167,16 @@ li a {
 .contactLink a{
     margin: 5px;
 }
+.skill{
+    display: none;
+}
 
 .mySkill{
     width: 70%;
     height: calc(90%/3);
     background-color: #333;
     margin-top: 20px;
-    display: none;
+    display: ;
   
 }
 
